@@ -22,7 +22,7 @@ We conducted experiments by passing a list of ingredients to one script, asking 
 
 ## Project Members
 - [Emmanuel](https://github.com/codehouze)
-- B 
+- [Alessio](https://github.com/AlessioChen)
 - C
 - D
 - [Raymond](https://github.com/90barricade93/)
