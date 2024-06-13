@@ -16,6 +16,7 @@ This project is part of the Encode Club AI Bootcamp. The goal is to extend a Che
 2. **Wise and Experienced Italian Chef** - Loves to make pasta.
 3. **Focused and Detail-oriented Vegan French Chef** - Specializes in vegan dishes.
 4. **Fun and Energetic Mexican Chef** - Loves spicy food.
+5. **Innovative Dutch Chef** - Who gives modern twists to traditional dishes and likes to experiment with new ingredients.
 
 ## Experiment and Results
 We conducted experiments by passing a list of ingredients to one script, asking another script for a recipe for the suggested dish, and then criticizing the recipe with a third script. The results of these experiments are documented in the experiment_results.md file.
