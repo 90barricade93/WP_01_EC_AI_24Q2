@@ -38,7 +38,7 @@ def select_chief() -> Chief:
         elif choice == "4":
             print(also_german_chef(prompt))
         elif choice == "5":
-            print(---_chief(prompt))    
+            print(---_chief(prompt))
         elif choice == "6":
             chief = dutch_chief
         else:
@@ -49,7 +49,9 @@ def select_chief() -> Chief:
 
 def main():
     # First question
-    dish = input("Provide ingredients, requesting a dish name, or sharing a recipe for criticism:\n")
+    dish = input(
+        "Provide ingredients, requesting a dish name, or sharing a recipe for criticism:\n"
+    )
     add_prompt_to_chiefs(dish)
     chief = select_chief()
     print(chief.get_response())

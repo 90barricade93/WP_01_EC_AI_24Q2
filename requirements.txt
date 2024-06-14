@@ -1,2 +1,4 @@
 openai==1.34.0
 python-dotenv==1.0.1
+black @ git+https://github.com/psf/black@b677a643c5322b6af2dbca1f8f7a4f8c98e732aa
+pre-commit==3.7.1

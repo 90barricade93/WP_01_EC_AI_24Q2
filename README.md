@@ -55,11 +55,15 @@ We conducted experiments by passing a list of ingredients to one script, asking 
 
 3. Install the dependencies:
     ```sh
-    pip install openai python-dotenv
-    ```
-    or via:
-    ```sh
     pip install -r requirements.txt
+    ```
+4. Install pre-commit:```sh
+    ```
+    pre-commit install
+    ```
+5. Create OpenAi api key and add it to .env:
+   ```
+    cp .env.example .env 
     ```
 
 ## Conclusion 
