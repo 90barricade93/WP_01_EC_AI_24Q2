@@ -12,6 +12,7 @@ client = OpenAI()
 # Set the OpenAI API key
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
+
 # Innovated_Dutch_Chef
 def Innovative_Dutch_Chef():
     """
@@ -19,7 +20,7 @@ def Innovative_Dutch_Chef():
     and cooking tips for a user's specified dish. It also allows the user to continue the conversation
     with the chatbot.
     """
-    
+
     # Create a list of system messages to be used in the chatbot
     messages = [
         {
@@ -46,7 +47,7 @@ def Innovative_Dutch_Chef():
 
     # Prompt the user to input the name of the dish they want a recipe for
     dish = input("Provide ingredients, requesting a dish name, or sharing a recipe for criticism:\n")
-    
+
     # Add the user's input to the chat messages
     messages.append(
         {
@@ -60,14 +61,14 @@ def Innovative_Dutch_Chef():
 
     # Create a chatbot stream using the specified model and chat messages
     stream = client.chat.completions.create(
-            model=model,
-            messages=messages,
-            stream=True,
-        )
+        model=model,
+        messages=messages,
+        stream=True,
+    )
 
     # Create an empty list to store the chatbot's responses
     collected_messages = []
-    
+
     # Iterate through the chatbot's responses and print them
     for chunk in stream:
         chunk_message = chunk.choices[0].delta.content or ""
@@ -82,7 +83,6 @@ def Innovative_Dutch_Chef():
         }
     )
 
-
     # Continue the chatbot conversation until the user inputs 'exit'
     while True:
         print("\n")
@@ -90,7 +90,7 @@ def Innovative_Dutch_Chef():
         user_input = input("prompt: ")
         if user_input == "exit":
             break
-        
+
         # Add the user's input to the chat messages
         messages.append(
             {
@@ -98,23 +98,23 @@ def Innovative_Dutch_Chef():
                 "content": user_input
             }
         )
-        
+
         # Create a new chatbot stream using the specified model and chat messages
         stream = client.chat.completions.create(
             model=model,
             messages=messages,
             stream=True,
         )
-        
+
         # Create an empty list to store the chatbot's responses
         collected_messages = []
-        
+
         # Iterate through the chatbot's responses and print them
         for chunk in stream:
             chunk_message = chunk.choices[0].delta.content or ""
             print(chunk_message, end="")
             collected_messages.append(chunk_message)
-        
+
         # Add the chatbot's responses to the chat messages
         messages.append(
             {
@@ -125,4 +125,5 @@ def Innovative_Dutch_Chef():
 
 
 # Call the Innovative_Dutch_Chef function to start the chatbot conversation
-Innovative_Dutch_Chef()
+if __name__ == "__main__":
+    Innovative_Dutch_Chef()
