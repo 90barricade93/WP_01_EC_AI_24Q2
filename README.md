@@ -9,27 +9,29 @@
 # WP_01_EC_AI_24Q2
 Weekend Project 01 - Encode Club AI Bootcamp 24Q2 Repository
 ## Project Overview
-This project is part of the Encode Club AI Bootcamp. The goal is to extend a Chef GPT script to give our AI chef some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI chef personality.
+This project is part of the Encode Club AI Bootcamp. The goal is to extend a Chef GPT script to give our AI chief some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI chef personality.
 
-## AI Chef Personalities ( For example )
+## AI Chief Personalities
 1. **Young and Spirited Indian Cook** - Loves to make Biryani.
-2. **Wise and Experienced Italian Chef** - Loves to make pasta.
-3. **Focused and Detail-oriented Vegan French Chef** - Specializes in vegan dishes.
-4. **Fun and Energetic Mexican Chef** - Loves spicy food.
-5. **Innovative Dutch Chef** - Who gives modern twists to traditional dishes and likes to experiment with new ingredients.
+2. **Wise and Experienced Italian Chief** - Loves to make pasta.
+3. **Focused and Detail-oriented Vegan French Chief** - Specializes in vegan dishes.
+4. **Fun and Energetic Mexican Chief** - Loves spicy food.
+5. **Creative and Dedicated Dutch Chief** - Specializes in classic dishes.
+6. **Innovative Dutch Chief** - Loves modernizing of tradition and innovate culinaries.
 
-## Experiment and Results
+## Results
 We conducted experiments by passing a list of ingredients to one script, asking another script for a recipe for the suggested dish, and then criticizing the recipe with a third script. The results of these experiments are documented in the experiment_results.md file.
 
 ## Project Members
 - [Emmanuel](https://github.com/codehouze)
 - [Alessio](https://github.com/AlessioChen)
-- C
-- D
+- [Jan-Christoph](https://github.com/jcklie)
+- [Akash](https://github.com/kshntn)
+- [---](https://github.com/---)
 - [Raymond](https://github.com/90barricade93/)
 
 ## Conclusion 
-This project helped us consolidate our knowledge of AI and natural language processing by creating interactive and personality-rich AI chefs. We learned to customize prompts and handle various user inputs effectively.
+This project helped us consolidate our knowledge of AI and natural language processing by creating interactive and personality-rich AI chiefs. We learned to customize prompts and handle various user inputs effectively.
 
 ### Acknowledgements
 We would like to thank the [Encode Club AI Bootcamp](https://github.com/Encode-Club-AI-Bootcamp) for this opportunity and [@mpagani](https://github.com/MatheusDaros) for his guidance.
