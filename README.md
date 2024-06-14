@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 
-[![Latest Release](https://img.shields.io/badge/Latest%20Version-0.0.1-blue?logo=github)](https://github.com/90barricade93/WP_01_EC_AI_24Q2/commits/main)
+[![Latest Release](https://img.shields.io/badge/Latest%20Version-0.3.14-blue?logo=github)](https://github.com/90barricade93/WP_01_EC_AI_24Q2/commits/main)
 </div>
 
 # WP_01_EC_AI_24Q2
@@ -11,13 +11,13 @@ Weekend Project 01 - Encode Club AI BootCamp 24Q2 Repository
 ## Project Overview
 This project is part of the Encode Club AI BootCamp. The goal is to extend a Chef GPT script to give our AI chef some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI chef personality.
 
-## AI Chief Personalities
+## AI Chief Personalities (for example, change to your own)
 1. **Young and Spirited Indian Cook** - Loves to make Biryani.
 2. **Wise and Experienced Italian Chief** - Loves to make pasta.
 3. **Focused and Detail-oriented Vegan French Chief** - Specializes in vegan dishes.
 4. **Fun and Energetic Mexican Chief** - Loves spicy food.
-5. **Creative and Dedicated Dutch Chief** - Specializes in classic dishes.
-6. **Innovative Dutch Chief** - Loves modernizing of tradition and innovate culinaries.
+5. **Creative and Dedicated French Chief** - Specializes in classic dishes.
+6. **Creative and Dedicated Dutch Chief** - Loves modernizing of tradition and innovate culinaries.
 
 ## Results
 We conducted experiments by passing a list of ingredients to one script, asking another script for a recipe for the suggested dish, and then criticizing the recipe with a third script. The results of these experiments are documented in the experiment_results.md file.
@@ -56,6 +56,10 @@ We conducted experiments by passing a list of ingredients to one script, asking 
 3. Install the dependencies:
     ```sh
     pip install openai python-dotenv
+    ```
+    or via:
+    ```sh
+    pip install -r requirements.txt
     ```
 
 ## Conclusion 
