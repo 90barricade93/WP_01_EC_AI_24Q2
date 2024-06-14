@@ -5,8 +5,8 @@
 from src.Chief import Chief
 from src.personalities import ITALIAN_CHIEF, DUTCH_CHIEF
 
-italian_chief = Chief(ITALIAN_CHEF)
-dutch_chief = Chief(DUTCH_CHEF)
+italian_chief = Chief(ITALIAN_CHIEF)
+dutch_chief = Chief(DUTCH_CHIEF)
 
 
 def add_prompt_to_chiefs(prompt: str) -> None:
