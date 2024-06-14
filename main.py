@@ -1,8 +1,6 @@
 # from indian_chef import indian_chef
-from ChefGPT_alessio import italian_chef
 # from french_chef import french_chef
 # from mexican_chef import mexican_chef
-from innovative_dutch_chef import innovative_dutch_chef
 from src.Chief import Chief
 from src.personalities import ITALIAN_CHEF, DUTCH_CHEF
 

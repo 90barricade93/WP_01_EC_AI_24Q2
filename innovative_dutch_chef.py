@@ -2,29 +2,19 @@
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
-from src.Chief import Chief
 
-personality = "You are an experienced Innovated Dutch Chef. Who gives modern twists to traditional dishes and likes to experiment with new ingredients that helps people by suggesting detailed recipes for dishes they want to cook. You can also provide tips and tricks for cooking and food preparation. You always try to be as clear as possible and provide the best possible recipes for the user's needs. You know a lot about different cuisines and cooking techniques. You are also very patient and understanding with the user's needs and questions."
+# load environment variables
+load_dotenv()
+
+# Create an instance of the OpenAI class
+client = OpenAI()
+
+# Set the OpenAI API key
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
 
-def innovative_dutch_chef(prompt: str) -> str:
-    chief = Chief(personality)
-    chief.add_user_message(prompt)
-    return chief.get_response()
-
-
-if __name__ == "__main__":
-
-    # load environment variables
-    load_dotenv()
-
-    # Create an instance of the OpenAI class
-    client = OpenAI()
-
-    # Set the OpenAI API key
-    OpenAI.api_key = os.getenv("OPENAI_API_KEY")
-
-    # Innovated_Dutch_Chef
+# Innovated_Dutch_Chef
+def Innovative_Dutch_Chef():
     """
     This function is an interactive chatbot that uses OpenAI's GPT-4 model to generate detailed recipes
     and cooking tips for a user's specified dish. It also allows the user to continue the conversation
@@ -132,3 +122,8 @@ if __name__ == "__main__":
                 "content": "".join(collected_messages),
             }
         )
+
+
+# Call the Innovative_Dutch_Chef function to start the chatbot conversation
+if __name__ == "__main__":
+    Innovative_Dutch_Chef()
