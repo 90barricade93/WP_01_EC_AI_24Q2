@@ -7,9 +7,9 @@
 </div>
 
 # WP_01_EC_AI_24Q2
-Weekend Project 01 - Encode Club AI Bootcamp 24Q2 Repository
+Weekend Project 01 - Encode Club AI BootCamp 24Q2 Repository
 ## Project Overview
-This project is part of the Encode Club AI Bootcamp. The goal is to extend a Chef GPT script to give our AI chef some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI chef personality.
+This project is part of the Encode Club AI BootCamp. The goal is to extend a Chef GPT script to give our AI chef some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI chef personality.
 
 ## AI Chef Personalities ( For example )
 1. **Young and Spirited Indian Cook** - Loves to make Biryani.
@@ -28,11 +28,37 @@ We conducted experiments by passing a list of ingredients to one script, asking 
 - D
 - [Raymond](https://github.com/90barricade93/)
 
+## Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- `pip` package manager
+
+### Installing
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/awesome-python-project.git
+    cd awesome-python-project
+    ```
+
+2. Create a virtual environment:
+    ```sh
+    python3 -m venv venv
+    source venv/bin/activate
+    On Windows use 
+    venv\Scripts\activate
+    ```
+
+3. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
 ## Conclusion 
 This project helped us consolidate our knowledge of AI and natural language processing by creating interactive and personality-rich AI chefs. We learned to customize prompts and handle various user inputs effectively.
 
 ### Acknowledgements
-We would like to thank the [Encode Club AI Bootcamp](https://github.com/Encode-Club-AI-Bootcamp) for this opportunity and [@mpagani](https://github.com/MatheusDaros) for his guidance.
+We would like to thank the [Encode Club AI BootCamp](https://github.com/Encode-Club-AI-Bootcamp) for this opportunity and [@mpagani](https://github.com/MatheusDaros) for his guidance.
 
 <div align="center">
 
