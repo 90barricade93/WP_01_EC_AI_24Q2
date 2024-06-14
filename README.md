@@ -47,7 +47,9 @@ We conducted experiments by passing a list of ingredients to one script, asking 
     ```sh
     python3 -m venv venv
     source venv/bin/activate
-    On Windows use 
+    ```
+     On Windows use 
+    ```sh
     venv\Scripts\activate
     ```
 
