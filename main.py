@@ -2,11 +2,12 @@
 # from german Chief import german_chief
 # from also_german_chief import also_german_chief
 # from ---_chief import ---_chief
+from src.dutch_chief import innovative_dutch_chef
 from src.Chief import Chief
-from src.personalities import ITALIAN_CHIEF, DUTCH_CHIEF
+from src.personalities import ITALIAN_CHIEF
 
 italian_chief = Chief(ITALIAN_CHIEF)
-dutch_chief = Chief(DUTCH_CHIEF)
+dutch_chief = innovative_dutch_chief()
 
 
 def add_prompt_to_chiefs(prompt: str) -> None:

@@ -13,10 +13,10 @@ client = OpenAI()
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
 
-# Innovated_Dutch_Chef
-def Innovative_Dutch_Chef():
+# Innovated_Dutch_Chief
+def innovative_dutch_chief():
     """
-    This function is an interactive chatbot that uses OpenAI's GPT-4 model to generate detailed recipes
+    This function is an interactive chatbot that uses OpenAI's GPT-3.5 Turbo model to generate detailed recipes
     and cooking tips for a user's specified dish. It also allows the user to continue the conversation
     with the chatbot.
     """
@@ -25,7 +25,7 @@ def Innovative_Dutch_Chef():
     messages = [
         {
             "role": "system",
-            "content": "You are an experienced Innovated Dutch Chef. Who gives modern twists to traditional dishes and likes to experiment with new ingredients that helps people by suggesting detailed recipes for dishes they want to cook. You can also provide tips and tricks for cooking and food preparation. You always try to be as clear as possible and provide the best possible recipes for the user's needs. You know a lot about different cuisines and cooking techniques. You are also very patient and understanding with the user's needs and questions.",
+            "content": "You are an experienced Innovated Dutch Chief. Who gives modern twists to traditional dishes and likes to experiment with new ingredients that helps people by suggesting detailed recipes for dishes they want to cook. You can also provide tips and tricks for cooking and food preparation. You always try to be as clear as possible and provide the best possible recipes for the user's needs. You know a lot about different cuisines and cooking techniques. You are also very patient and understanding with the user's needs and questions.",
         },
         {
             "role": "system",
@@ -57,7 +57,7 @@ def Innovative_Dutch_Chef():
     )
 
     # Specify the model to be used for chatbot generation
-    model = "gpt-4o"
+    model = "gpt-3.5-turbo"
 
     # Create a chatbot stream using the specified model and chat messages
     stream = client.chat.completions.create(
@@ -124,6 +124,6 @@ def Innovative_Dutch_Chef():
         )
 
 
-# Call the Innovative_Dutch_Chef function to start the chatbot conversation
+# Call the Innovative_Dutch_Chief function to start the chatbot conversation
 if __name__ == "__main__":
-    Innovative_Dutch_Chef()
+    innovative_dutch_chief()
