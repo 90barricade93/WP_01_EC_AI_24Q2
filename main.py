@@ -2,25 +2,23 @@
 # from german Chief import german_chief
 # from also_german_chief import also_german_chief
 # from ---_chief import ---_chief
-from src.dutch_chief import innovative_dutch_chef
+import src.dutch_chief as dutch_chief
 from src.Chief import Chief
 from src.personalities import ITALIAN_CHIEF
 
 italian_chief = Chief(ITALIAN_CHIEF)
-dutch_chief = innovative_dutch_chief()
 
 
 def add_prompt_to_chiefs(prompt: str) -> None:
     italian_chief.add_user_message(prompt)
-    dutch_chief.add_user_message(prompt)
 
 
 def select_chief() -> Chief:
     print("Choose your chief:")
-    print("1. Norwegian Chief")
+    print("1. --- Chief")
     print("2. Italian Chief")
-    print("3. German Chief")
-    print("4. Also German Chief")
+    print("3. --- Chief")
+    print("4. --- Chief")
     print("5. --- Chief")
     print("6. Dutch Chief")
 
@@ -31,17 +29,17 @@ def select_chief() -> Chief:
         # prompt = input("Enter your prompt: ")
         chief = None
         if choice == "1":
-            print(norwegian_chef(prompt))
+            print(---_chief(prompt))
         elif choice == "2":
             chief = italian_chief
         elif choice == "3":
-            print(german_chef(prompt))
+            print(---_chief(prompt))
         elif choice == "4":
-            print(also_german_chef(prompt))
+            print(---_chief(prompt))
         elif choice == "5":
             print(---_chief(prompt))
         elif choice == "6":
-            chief = dutch_chief
+            print(dutch_chief(prompt))
         else:
             print("Invalid choice. Please try again.")
 
