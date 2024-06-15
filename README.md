@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 
-[![Latest Release](https://img.shields.io/badge/Latest%20Version-0.3.14-blue?logo=github)](https://github.com/90barricade93/WP_01_EC_AI_24Q2/commits/main)
+[![Latest Release](https://img.shields.io/badge/Latest%20Version-0.3.16-blue?logo=github)](https://github.com/90barricade93/WP_01_EC_AI_24Q2/commits/main)
 </div>
 
 # WP_01_EC_AI_24Q2
@@ -27,7 +27,7 @@ We conducted experiments by passing a list of ingredients to one script, asking 
 - [Alessio](https://github.com/AlessioChen)
 - [Jan-Christoph](https://github.com/jcklie)
 - [Akash](https://github.com/kshntn)
-- [---](https://github.com/---)
+- [Serena](https://github.com/---)
 - [Raymond](https://github.com/90barricade93/)
 
 ## Installation
@@ -57,8 +57,8 @@ We conducted experiments by passing a list of ingredients to one script, asking 
     ```sh
     pip install -r requirements.txt
     ```
-4. Install pre-commit:```sh
-    ```
+4. Install pre-commit:
+    ```sh
     pre-commit install
     ```
 5. Create OpenAi api key and add it to .env:
