@@ -4,6 +4,8 @@
 <div align="center">
 
 [![Latest Release](https://img.shields.io/badge/Latest%20Version-0.3.16-blue?logo=github)](https://github.com/90barricade93/WP_01_EC_AI_24Q2/commits/main)
+![Static Badge](https://img.shields.io/badge/Encode_Club-AI_Bootcamp_24Q2-silver)
+![Static Badge](https://img.shields.io/badge/GROUP-09-gold)
 </div>
 
 # WP_01_EC_AI_24Q2
@@ -57,10 +59,12 @@ We conducted experiments by passing a list of ingredients to one script, asking 
     ```sh
     pip install -r requirements.txt
     ```
+
 4. Install pre-commit:
     ```sh
     pre-commit install
     ```
+
 5. Create OpenAi api key and add it to .env:
    ```
     cp .env.example .env 
@@ -74,7 +78,7 @@ We would like to thank the [Encode Club AI BootCamp](https://github.com/Encode-C
 
 <div align="center">
 
-![GitHub forks](https://img.shields.io/github/forks/90barricade93/WP_01_EC_AI_24Q2) &ensp; © GROUP 9 - Raymond de Vries &ensp; ![GitHub stars](https://img.shields.io/github/stars/90barricade93/WP_01_EC_AI_24Q2) 
+![GitHub forks](https://img.shields.io/github/forks/90barricade93/WP_01_EC_AI_24Q2) &ensp; © GROUP 9 - AI 24Q2 &ensp; ![GitHub stars](https://img.shields.io/github/stars/90barricade93/WP_01_EC_AI_24Q2) 
 
 </div>
 
