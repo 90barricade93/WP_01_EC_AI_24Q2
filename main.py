@@ -39,7 +39,7 @@ def select_chief() -> Chief:
         elif choice == "5":
             print(---_chief(prompt))
         elif choice == "6":
-            print(dutch_chief(prompt))
+            chief = dutch_chief.dutch_chief()
         else:
             print("Invalid choice. Please try again.")
 
