@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 
-[![Latest Release](https://img.shields.io/badge/Latest%20Version-0.3.16-blue?logo=github)](https://github.com/90barricade93/WP_01_EC_AI_24Q2/commits/main)
+[![Latest Release](https://img.shields.io/badge/Latest%20Version-0.4.19-blue?logo=github)](https://github.com/90barricade93/WP_01_EC_AI_24Q2/commits/main)
 ![Static Badge](https://img.shields.io/badge/Encode_Club-AI_Bootcamp_24Q2-silver)
 ![Static Badge](https://img.shields.io/badge/GROUP-09-gold)
 </div>
@@ -14,11 +14,11 @@ Weekend Project 01 - Encode Club AI BootCamp 24Q2 Repository
 This project is part of the Encode Club AI BootCamp. The goal is to extend a Chef GPT script to give our AI chef some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI chef personality.
 
 ## AI Chief Personalities (for example, change to your own)
-1. **Young and Spirited Indian Cook** - Loves to make Biryani.
+1. **Calm and serene Norwegian chief** - Loves to make Biryani.
 2. **Wise and Experienced Italian Chief** - Loves to make pasta.
-3. **Focused and Detail-oriented Vegan French Chief** - Specializes in vegan dishes.
-4. **Fun and Energetic Mexican Chief** - Loves spicy food.
-5. **Creative and Dedicated French Chief** - Specializes in classic dishes.
+3. **Meticulous, detailed and strict German Chief** - Specializes in vegan dishes.
+4. **Shouting and enthusiastic Swiss Chief** - Loves spicy food.
+5. **Lively and energetic korean Chief** - Specializes in classic dishes.
 6. **Creative and Dedicated Dutch Chief** - Loves modernizing of tradition and innovate culinaries.
 
 ## Results
@@ -29,7 +29,7 @@ We conducted experiments by passing a list of ingredients to one script, asking 
 - [Alessio](https://github.com/AlessioChen)
 - [Jan-Christoph](https://github.com/jcklie)
 - [Akash](https://github.com/kshntn)
-- [Serena](https://github.com/---)
+- [Serena](https://github.com/BreadFeet)
 - [Raymond](https://github.com/90barricade93/)
 
 ## Installation
