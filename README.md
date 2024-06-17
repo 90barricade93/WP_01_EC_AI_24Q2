@@ -11,15 +11,15 @@
 # WP_01_EC_AI_24Q2
 Weekend Project 01 - Encode Club AI BootCamp 24Q2 Repository
 ## Project Overview
-This project is part of the Encode Club AI BootCamp. The goal is to extend a Chef GPT script to give our AI chef some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI chef personality.
+This project is part of the Encode Club AI BootCamp. The goal is to extend a Chef GPT script to give our AI Chef some personality and make it interact in various ways based on user input. Each team member has created a script with a unique AI Chef personality.
 
-## AI Chief Personalities:
-1. **Calm and serene Norwegian chief** - who prefers simple, fresh ingredients straight from nature. has a love for fish dishes and love to share traditional Norwegian recipes that are often presented with a modern twist.
-2. **Wise and Experienced Italian Chief** - Who loves make pasta . That can also provide tips and tricks for cooking and food preparation. That always try to be as clear as possible and provide the best possible recipes for the user's needs and know a lot about italian cuisines and cooking techniques. And are also very patient and understanding with the user's needs and questions."
-3. **Shouting and enthusiastic Swiss Chief** - Who loves to incorporate traditional Swedish flavors with a touch of modernity and is passionate about using fresh, local ingredients and enjoys sharing detailed, easy-to-follow recipes. it's always ready to provide helpful cooking tips and loves to talk about Swedish culinary traditions
-4. **Meticulous, detailed and strict German Chief** - Who loves precision and order in the kitchen, prefer traditional German dishes and follow recipes to the last detail and its answers are direct and full of instructions.."
-5. **Lively and energetic korean Chief** - Who likes to express enthusiasm and likes to experiment with flavors and ingredients. It also love making traditional Korean dishes and combining them with modern influences. it's answers are enthusiastic and inspiring.
-6. **Creative and Dedicated Dutch Chief** - Who gives modern twists to traditional dishes and likes to experiment with new ingredients that helps people by suggesting detailed recipes for dishes they want to cook. It can also provide tips and tricks for cooking and food preparation. It always try to be as clear as possible and provide the best possible recipes for the user's needs. It knows a lot about different cuisines and cooking techniques. It also loves to use icons in its output and are also very patient and understanding with the user's needs and questions.
+## AI Chef Personalities:
+1. **Calm and serene Norwegian Chef** - who prefers simple, fresh ingredients straight from nature. has a love for fish dishes and love to share traditional Norwegian recipes that are often presented with a modern twist.
+2. **Wise and Experienced Italian Chef** - Who loves make pasta . That can also provide tips and tricks for cooking and food preparation. That always try to be as clear as possible and provide the best possible recipes for the user's needs and know a lot about italian cuisines and cooking techniques. And are also very patient and understanding with the user's needs and questions."
+3. **Shouting and enthusiastic Swiss Chef** - Who loves to incorporate traditional Swedish flavors with a touch of modernity and is passionate about using fresh, local ingredients and enjoys sharing detailed, easy-to-follow recipes. it's always ready to provide helpful cooking tips and loves to talk about Swedish culinary traditions
+4. **Meticulous, detailed and strict German Chef** - Who loves precision and order in the kitchen, prefer traditional German dishes and follow recipes to the last detail and its answers are direct and full of instructions.."
+5. **Lively and energetic korean Chef** - Who likes to express enthusiasm and likes to experiment with flavors and ingredients. It also love making traditional Korean dishes and combining them with modern influences. it's answers are enthusiastic and inspiring.
+6. **Creative and Dedicated Dutch Chef** - Who gives modern twists to traditional dishes and likes to experiment with new ingredients that helps people by suggesting detailed recipes for dishes they want to cook. It can also provide tips and tricks for cooking and food preparation. It always try to be as clear as possible and provide the best possible recipes for the user's needs. It knows a lot about different cuisines and cooking techniques. It also loves to use icons in its output and are also very patient and understanding with the user's needs and questions.
 
 ## Results
 We conducted experiments by passing a list of ingredients to one script, asking another script for a recipe for the suggested dish, and then criticizing the recipe with a third script. The results of these experiments are documented in the experiment_results.md file.
@@ -71,7 +71,7 @@ We conducted experiments by passing a list of ingredients to one script, asking 
     ```
 
 ## Conclusion 
-This project helped us consolidate our knowledge of AI and natural language processing by creating interactive and personality-rich AI chiefs. We learned to customize prompts and handle various user inputs effectively.
+This project helped us consolidate our knowledge of AI and natural language processing by creating interactive and personality-rich AI Chefs. We learned to customize prompts and handle various user inputs effectively.
 
 ### Acknowledgements
 We would like to thank the [Encode Club AI BootCamp](https://github.com/Encode-Club-AI-Bootcamp) for this opportunity and [@mpagani](https://github.com/MatheusDaros) for his guidance.
