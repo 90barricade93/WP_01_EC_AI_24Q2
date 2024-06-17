@@ -1,7 +1,7 @@
 import src.norwegian_chief as norwegian_chief
 import src.german_chief as german_chief
 
-import swiss_chief as swiss_chief
+import src.swiss_chief as swiss_chief
 import src.korean_chief as korean_chief
 import src.dutch_chief as dutch_chief
 from src.Chief import Chief
