@@ -1,11 +1,10 @@
-import src.norwegian_chef as norwegian_chef
-import src.german_chef as german_chef
-
-import src.swiss_chef as swiss_chef
-import src.korean_chef as korean_chef
-import src.dutch_chef as dutch_chef
-from src.chef import Chef
-from src.personalities import ITALIAN_CHEF
+import src.norwegian_chief as norwegian_chief
+import src.german_chief as german_chief
+import src.swiss_chief as swiss_chief
+import src.korean_chief as korean_chief
+import src.dutch_chief as dutch_chief
+from src.Chief import Chief
+from src.personalities import ITALIAN_CHIEF
 
 italian_chef = Chef(ITALIAN_CHEF)
 
@@ -14,14 +13,14 @@ def add_prompt_to_chefs(prompt: str) -> None:
     italian_chef.add_user_message(prompt)
 
 
-def select_chef() -> Chef:
-    print("Choose your chef:")
-    print("1. Norwegian chef")
-    print("2. Italian chef")
-    print("3. German chef")
-    print("4. --- chef")
-    print("5. korean chef")
-    print("6. Dutch chef")
+def select_chief() -> Chief:
+    print("Choose your chief:")
+    print("1. Norwegian Chief")
+    print("2. Italian Chief")
+    print("3. German Chief")
+    print("4. Swiss Chief")
+    print("5. korean Chief")
+    print("6. Dutch Chief")
 
     chef = None
 
