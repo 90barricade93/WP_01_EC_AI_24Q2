@@ -1,50 +1,50 @@
-import src.norwegian_chief as norwegian_chief
-import src.german_chief as german_chief
+import src.norwegian_chef as norwegian_chef
+import src.german_chef as german_chef
 
-import src.swiss_chief as swiss_chief
-import src.korean_chief as korean_chief
-import src.dutch_chief as dutch_chief
-from src.Chief import Chief
-from src.personalities import ITALIAN_CHIEF
+import src.swiss_chef as swiss_chef
+import src.korean_chef as korean_chef
+import src.dutch_chef as dutch_chef
+from src.chef import Chef
+from src.personalities import ITALIAN_CHEF
 
-italian_chief = Chief(ITALIAN_CHIEF)
-
-
-def add_prompt_to_chiefs(prompt: str) -> None:
-    italian_chief.add_user_message(prompt)
+italian_chef = Chef(ITALIAN_CHEF)
 
 
-def select_chief() -> Chief:
-    print("Choose your chief:")
-    print("1. Norwegian Chief")
-    print("2. Italian Chief")
-    print("3. German Chief")
-    print("4. --- Chief")
-    print("5. korean Chief")
-    print("6. Dutch Chief")
+def add_prompt_to_chefs(prompt: str) -> None:
+    italian_chef.add_user_message(prompt)
 
-    chief = None
 
-    while not chief:
+def select_chef() -> Chef:
+    print("Choose your chef:")
+    print("1. Norwegian chef")
+    print("2. Italian chef")
+    print("3. German chef")
+    print("4. --- chef")
+    print("5. korean chef")
+    print("6. Dutch chef")
+
+    chef = None
+
+    while not chef:
         choice = input("Enter the number of your choice: ")
         # prompt = input("Enter your prompt: ")
-        chief = None
+        chef = None
         if choice == "1":
-            chief = norwegian_chief.norwegian_chief()
+            chef = norwegian_chef.norwegian_chef()
         elif choice == "2":
-            chief = italian_chief
+            chef = italian_chef
         elif choice == "3":
-            chief = german_chief.german_chief()
+            chef = german_chef.german_chef()
         elif choice == "4":
-            chief = swiss_chief.swiss_chief()
+            chef = swiss_chef.swiss_chef()
         elif choice == "5":
-            chief = korean_chief.korean_chief()
+            chef = korean_chef.korean_chef()
         elif choice == "6":
-            chief = dutch_chief.dutch_chief()
+            chef = dutch_chef.dutch_chef()
         else:
             print("Invalid choice. Please try again.")
 
-    return chief
+    return chef
 
 
 def main():
@@ -52,9 +52,9 @@ def main():
     dish = input(
         "Provide ingredients, requesting a dish name, or sharing a recipe for criticism:\n"
     )
-    add_prompt_to_chiefs(dish)
-    chief = select_chief()
-    print(chief.get_response())
+    add_prompt_to_chefs(dish)
+    chef = select_chef()
+    print(chef.get_response())
 
     while True:
         print("\n")
@@ -63,9 +63,9 @@ def main():
         if user_input == "exit":
             break
 
-        add_prompt_to_chiefs(user_input)
-        chief = select_chief()
-        print(chief.get_response())
+        add_prompt_to_chefs(user_input)
+        chef = select_chef()
+        print(chef.get_response())
 
 
 if __name__ == "__main__":

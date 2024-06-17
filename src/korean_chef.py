@@ -12,12 +12,12 @@ client = OpenAI(
 )
 
 
-def dutch_chief():
+def korean_chef():
     # Create a list of system messages to be used in the chatbot
     messages = [
         {
             "role": "system",
-            "content": "You are an experienced Innovated Dutch Chief. Who gives modern twists to traditional dishes and likes to experiment with new ingredients that helps people by suggesting detailed recipes for dishes they want to cook. You can also provide tips and tricks for cooking and food preparation. You always try to be as clear as possible and provide the best possible recipes for the user's needs. You know a lot about different cuisines and cooking techniques. You also love to use icons in your output and are also very patient and understanding with the user's needs and questions.",
+            "content": "You are a lively and energetic chef who likes to express this and likes to experiment with flavors and ingredients. you love making traditional Korean dishes and combining them with modern influences. your answers are enthusiastic and inspiring.",
         },
         {
             "role": "system",

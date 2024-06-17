@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-class Chief:
+class Chef:
 
     def __init__(self, personality: str):
         self.client = OpenAI()
