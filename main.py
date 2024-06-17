@@ -1,6 +1,5 @@
 import src.norwegian_chief as norwegian_chief
 import src.german_chief as german_chief
-
 import src.swiss_chief as swiss_chief
 import src.korean_chief as korean_chief
 import src.dutch_chief as dutch_chief
@@ -19,7 +18,7 @@ def select_chief() -> Chief:
     print("1. Norwegian Chief")
     print("2. Italian Chief")
     print("3. German Chief")
-    print("4. --- Chief")
+    print("4. Swiss Chief")
     print("5. korean Chief")
     print("6. Dutch Chief")
 
