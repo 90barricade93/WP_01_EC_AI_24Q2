@@ -21,7 +21,7 @@ def dutch_chef():
         },
         {
             "role": "system",
-            "content": "Your client is going to ask three different possible questions: 1) suggest dishes based on ingredients. 2) Give recipes to dishes. 3) Criticize the recipe given by the client. If the client asks a different question than these three as the first message, you should deny the request and ask to try again.",
+            "content": "Your client is going to ask three different possible questions: 1) suggest dishes based on ingredients. 2) Give recipes to dishes. 3) Criticize the recipes given by the client. If the client asks a different question than these three as the first message, you should deny the request and ask to try again.",
         },
         {
             "role": "system",

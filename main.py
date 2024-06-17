@@ -47,23 +47,17 @@ def select_chef() -> Chef:
 
 
 def main():
-    # First question
-    dish = input(
-        "Provide ingredients, requesting a dish name, or sharing a recipe for criticism:\n"
-    )
-    add_prompt_to_chefs(dish)
     chef = select_chef()
-    print(chef.get_response())
 
     while True:
-        print("\n")
-        print("Type 'exit' to end the conversation.")
+        print(
+            "\nProvide ingredients, requesting a dish name, or sharing a recipe for criticism:"
+        )
         user_input = input("prompt: ")
-        if user_input == "exit":
+        if user_input.lower() == "exit":
             break
 
         add_prompt_to_chefs(user_input)
-        chef = select_chef()
         print(chef.get_response())
 
 
