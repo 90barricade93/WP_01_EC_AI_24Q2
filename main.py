@@ -1,7 +1,7 @@
 import src.norwegian_chief as norwegian_chief
 import src.german_chief as german_chief
 
-# import also_german_chief as also_german_chief
+import swiss_chief as swiss_chief
 import src.korean_chief as korean_chief
 import src.dutch_chief as dutch_chief
 from src.Chief import Chief
@@ -36,7 +36,7 @@ def select_chief() -> Chief:
         elif choice == "3":
             chief = german_chief.german_chief()
         elif choice == "4":
-            chief = german_chief.german_chief()
+            chief = swiss_chief.swiss_chief()
         elif choice == "5":
             chief = korean_chief.korean_chief()
         elif choice == "6":
