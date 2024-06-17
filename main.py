@@ -6,11 +6,11 @@ import src.dutch_chief as dutch_chief
 from src.Chief import Chief
 from src.personalities import ITALIAN_CHIEF
 
-italian_chief = Chief(ITALIAN_CHIEF)
+italian_chef = Chef(ITALIAN_CHEF)
 
 
-def add_prompt_to_chiefs(prompt: str) -> None:
-    italian_chief.add_user_message(prompt)
+def add_prompt_to_chefs(prompt: str) -> None:
+    italian_chef.add_user_message(prompt)
 
 
 def select_chief() -> Chief:
@@ -22,28 +22,28 @@ def select_chief() -> Chief:
     print("5. korean Chief")
     print("6. Dutch Chief")
 
-    chief = None
+    chef = None
 
-    while not chief:
+    while not chef:
         choice = input("Enter the number of your choice: ")
         # prompt = input("Enter your prompt: ")
-        chief = None
+        chef = None
         if choice == "1":
-            chief = norwegian_chief.norwegian_chief()
+            chef = norwegian_chef.norwegian_chef()
         elif choice == "2":
-            chief = italian_chief
+            chef = italian_chef
         elif choice == "3":
-            chief = german_chief.german_chief()
+            chef = german_chef.german_chef()
         elif choice == "4":
-            chief = swiss_chief.swiss_chief()
+            chef = swiss_chef.swiss_chef()
         elif choice == "5":
-            chief = korean_chief.korean_chief()
+            chef = korean_chef.korean_chef()
         elif choice == "6":
-            chief = dutch_chief.dutch_chief()
+            chef = dutch_chef.dutch_chef()
         else:
             print("Invalid choice. Please try again.")
 
-    return chief
+    return chef
 
 
 def main():
@@ -51,9 +51,9 @@ def main():
     dish = input(
         "Provide ingredients, requesting a dish name, or sharing a recipe for criticism:\n"
     )
-    add_prompt_to_chiefs(dish)
-    chief = select_chief()
-    print(chief.get_response())
+    add_prompt_to_chefs(dish)
+    chef = select_chef()
+    print(chef.get_response())
 
     while True:
         print("\n")
@@ -62,9 +62,9 @@ def main():
         if user_input == "exit":
             break
 
-        add_prompt_to_chiefs(user_input)
-        chief = select_chief()
-        print(chief.get_response())
+        add_prompt_to_chefs(user_input)
+        chef = select_chef()
+        print(chef.get_response())
 
 
 if __name__ == "__main__":
